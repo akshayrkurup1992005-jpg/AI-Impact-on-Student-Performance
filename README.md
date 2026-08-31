@@ -1,157 +1,115 @@
-# 📊 AI Impact on Student Performance using Excel & Power BI
+# 🖼️ Dashboard Screenshots
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft-Excel-green)
-![Data Analytics](https://img.shields.io/badge/Domain-Data%20Analytics-blue)
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
+## 📌 Overview Dashboard
 
----
+![Overview Dashboard](./Screenshots/Overview%20Dashboard.png)
 
-## 📌 Project Overview
-
-**AI Impact on Student Performance** is a Data Analytics and Visualization project developed to analyze student academic performance and Artificial Intelligence (AI) usage patterns.
-
-The project uses **Microsoft Excel** for data understanding, data cleaning, validation, and initial analysis, followed by **Microsoft Power BI** for interactive data visualization and dashboard development.
-
-The main objective is to transform raw student data into meaningful insights related to:
-
-- Student academic performance
-- AI usage
-- AI tools used by students
-- AI usage purposes
-- Attendance
-- Grade level
-- AI dependency
-- Final academic score
-
-The project follows a complete data analytics workflow from **raw data preparation to interactive dashboard development and insights generation**.
+The Overview Dashboard provides a summary of student performance, AI usage and important KPIs.
 
 ---
 
-# 🎯 Objectives
+## 🤖 AI Usage Analysis
 
-The main objectives of this project are:
+![AI Usage Analysis](./Screenshots/AI%20Usage%20Analysis.png)
 
-- To understand the structure of the student performance dataset
-- To clean and validate the raw dataset
-- To identify and check duplicate records
-- To check missing and blank values
-- To validate categorical and numerical data
-- To analyze student distribution by grade level
-- To compare AI users and non-AI users
-- To analyze AI tools used by students
-- To analyze different AI usage purposes
-- To study AI usage in relation to final academic score
-- To analyze attendance and academic performance
-- To analyze AI dependency and final score
-- To develop an interactive Power BI dashboard
-- To provide student-level analysis using drill-through
-- To present meaningful insights using data visualizations
+This page focuses on AI tools, AI usage purposes, AI dependency and academic performance.
 
 ---
 
-# 📂 Dataset Description
+## 👨‍🎓 Student Performance
 
-## Dataset Name
+![Student Performance](./Screenshots/Student%20Performance.png)
 
-**AI Student Performance Dataset**
-
-The dataset contains information related to students, their academic performance, attendance, AI usage behaviour, AI tools, AI usage purpose, and AI dependency.
-
-### Dataset Information
-
-| Attribute | Details |
-|---|---|
-| Dataset | AI Student Performance Dataset |
-| Number of Students | 8,000 |
-| Number of Columns | 26 |
-| Data Cleaning Tool | Microsoft Excel |
-| Visualization Tool | Microsoft Power BI |
+This page provides student-level information and supports detailed student analysis.
 
 ---
 
-# 🔑 Important Dataset Fields
+# 📊 Analysis Visualizations
 
-| Field | Description |
-|---|---|
-| `student_id` | Unique identification number of each student |
-| `grade_level` | Academic/grade level of the student |
-| `uses_ai` | Indicates whether the student uses AI |
-| `ai_tools_used` | AI tools used by students |
-| `ai_usage_purpose` | Purpose of AI usage |
-| `attendance_percentage` | Student attendance percentage |
-| `final_score` | Final academic performance score |
-| `ai_dependency_score` | AI dependency score |
+## 🧰 AI Tool Used Distribution
 
-These fields are used for data analysis and dashboard development.
+![AI Tool Used Distribution](./Screenshots/AI%20Tool%20Used%20Distribution.png)
+
+Shows the distribution of AI tools used by students.
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🎯 AI Usage Purpose Distribution
 
-## Microsoft Excel
+![AI Usage Purpose Distribution](./Screenshots/AI%20Usage%20Purpose%20Distribution.png)
 
-Excel was used for:
-
-- Data understanding
-- Data cleaning
-- Duplicate checking
-- Missing value checking
-- Data validation
-- Categorical data checking
-- Numerical data checking
-- Pivot Table analysis
-
-## Microsoft Power BI
-
-Power BI was used for:
-
-- Data visualization
-- Dashboard development
-- KPI cards
-- Charts
-- Slicers
-- Filters
-- Page navigation
-- Bookmarks
-- Drill-through
-- Student-level analysis
-
-## Power Query
-
-Power Query can be used for data transformation and preparation where applicable.
-
-## DAX
-
-DAX can be used for calculated measures and Power BI calculations where applicable.
+Shows the distribution of different AI usage purposes.
 
 ---
 
-# 🔄 Project Workflow
+## 📈 AI Usage Purpose vs Average Final Score
 
-```text
-Raw Dataset
-     ↓
-Data Understanding
-     ↓
-Data Cleaning
-     ↓
-Data Validation
-     ↓
-Cleaned Dataset
-     ↓
-Excel Analysis
-     ↓
-Pivot Table Analysis
-     ↓
-Power BI Import
-     ↓
-Data Modeling
-     ↓
-Data Visualization
-     ↓
-Dashboard Development
-     ↓
-Interactive Features
-     ↓
-Insights & Findings
+![AI Usage Purpose vs Average Final Score](./Screenshots/AI%20Usage%20Purpose%20vs%20Average%20Final%20Score.png)
+
+Compares average final scores across different AI usage purposes.
+
+---
+
+## 📊 AI Usage vs Average Final Score
+
+![AI Usage vs Average Final Score](./Screenshots/AI%20Usage%20vs%20Average%20Final%20Score.png)
+
+Compares AI usage status with average final score.
+
+---
+
+## 👥 AI Users vs Non-AI Users
+
+![AI Users vs Non-AI Users](./Screenshots/AI%20Users%20vs%20Non-AI%20Users.png)
+
+Compares students based on AI usage status.
+
+---
+
+## 📚 Attendance Percentage vs Average
+
+![Attendance Percentage vs Average](./Screenshots/Attendence%20Percentage%20vs%20Average.png)
+
+Analyzes attendance percentage in relation to academic performance.
+
+---
+
+## 🧹 Cleaned Data
+
+![Cleaned Data](./Screenshots/Cleaned%20Data.png)
+
+Shows the cleaned dataset prepared for further analysis.
+
+---
+
+## 👥 Gender-wise Student Count
+
+![Gender-Wise Student Count](./Screenshots/Gender-Wise%20Student%20Count.png)
+
+Shows the distribution of students by gender.
+
+---
+
+## 🎓 Grade Level vs Average Final Score
+
+![Grade Level vs Average Final Score](./Screenshots/Grade%20Level%20vs%20Average%20Final%20Score.png)
+
+Compares average final scores across different grade levels.
+
+---
+
+## 🎓 Grade Level-Wise Student Count
+
+![Grade Level-Wise Student Count](./Screenshots/Grade%20Level-Wise%20Student%20Count.png)
+
+Shows the number of students across different grade levels.
+
+---
+
+## 📋 Raw Data
+
+![Raw Data](./Screenshots/Raw%20Data.png)
+
+Shows the original raw dataset before data cleaning.
+
+---
