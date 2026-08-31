@@ -1,9 +1,9 @@
 # 📊 AI Impact on Student Performance using Excel & Power BI
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![Excel](https://img.shields.io/badge/Microsoft-Excel-green)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft-Excel-green)
 ![Data Analytics](https://img.shields.io/badge/Domain-Data%20Analytics-blue)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
@@ -11,81 +11,79 @@
 
 **AI Impact on Student Performance** is a Data Analytics and Visualization project developed to analyze student academic performance and Artificial Intelligence (AI) usage patterns.
 
-The project uses **Microsoft Excel** for data understanding, cleaning, validation, and initial analysis, followed by **Microsoft Power BI** for interactive data visualization and dashboard development.
+The project uses **Microsoft Excel** for data understanding, data cleaning, validation, and initial analysis, followed by **Microsoft Power BI** for interactive data visualization and dashboard development.
 
-The main purpose of this project is to transform raw student data into meaningful insights that can help understand:
+The main objective is to transform raw student data into meaningful insights related to:
 
 - Student academic performance
-- AI usage among students
+- AI usage
 - AI tools used by students
-- Different purposes of AI usage
-- Attendance and academic performance
+- AI usage purposes
+- Attendance
+- Grade level
 - AI dependency
-- Grade-level performance
-- Relationship between AI usage and final scores
+- Final academic score
 
-The project follows a complete data analytics workflow from **raw data to interactive dashboard and insights**.
+The project follows a complete data analytics workflow from **raw data preparation to interactive dashboard development and insights generation**.
 
 ---
 
-# 🎯 Project Objectives
+# 🎯 Objectives
 
-The major objectives of this project are:
+The main objectives of this project are:
 
-- To understand the structure and characteristics of the student dataset
+- To understand the structure of the student performance dataset
 - To clean and validate the raw dataset
 - To identify and check duplicate records
 - To check missing and blank values
 - To validate categorical and numerical data
-- To analyze student distribution across grade levels
+- To analyze student distribution by grade level
 - To compare AI users and non-AI users
-- To analyze the AI tools used by students
+- To analyze AI tools used by students
 - To analyze different AI usage purposes
-- To study AI usage in relation to final academic scores
-- To analyze attendance percentage and final score
-- To analyze AI dependency and academic performance
-- To create an interactive Power BI dashboard
+- To study AI usage in relation to final academic score
+- To analyze attendance and academic performance
+- To analyze AI dependency and final score
+- To develop an interactive Power BI dashboard
 - To provide student-level analysis using drill-through
-- To present the analysis through meaningful visualizations
+- To present meaningful insights using data visualizations
 
 ---
 
 # 📂 Dataset Description
 
-## Dataset
+## Dataset Name
 
 **AI Student Performance Dataset**
 
-The dataset contains information related to students, their academic performance, attendance, AI usage, AI tools, AI usage purpose, and AI dependency.
+The dataset contains information related to students, their academic performance, attendance, AI usage behaviour, AI tools, AI usage purpose, and AI dependency.
 
-### Dataset Statistics
+### Dataset Information
 
 | Attribute | Details |
 |---|---|
 | Dataset | AI Student Performance Dataset |
-| Records | 8,000 |
-| Columns | 26 |
-| Data Cleaning | Microsoft Excel |
-| Visualization | Microsoft Power BI |
+| Number of Students | 8,000 |
+| Number of Columns | 26 |
+| Data Cleaning Tool | Microsoft Excel |
+| Visualization Tool | Microsoft Power BI |
 
 ---
 
 # 🔑 Important Dataset Fields
 
-The major fields used in this project include:
-
 | Field | Description |
 |---|---|
 | `student_id` | Unique identification number of each student |
-| `grade_level` | Academic grade/level of the student |
+| `grade_level` | Academic/grade level of the student |
 | `uses_ai` | Indicates whether the student uses AI |
 | `ai_tools_used` | AI tools used by students |
 | `ai_usage_purpose` | Purpose of AI usage |
-| `attendance_percentage` | Attendance percentage of the student |
+| `attendance_percentage` | Student attendance percentage |
 | `final_score` | Final academic performance score |
 | `ai_dependency_score` | AI dependency score |
 
-These fields form the basis of the analysis and Power BI dashboard.
+These fields are used for data analysis and dashboard development.
 
 ---
 
@@ -93,16 +91,15 @@ These fields form the basis of the analysis and Power BI dashboard.
 
 ## Microsoft Excel
 
-Excel was used during the initial stage of the project for:
+Excel was used for:
 
 - Data understanding
 - Data cleaning
-- Data validation
 - Duplicate checking
 - Missing value checking
-- Data consistency checking
-- Numerical value validation
-- Categorical value validation
+- Data validation
+- Categorical data checking
+- Numerical data checking
 - Pivot Table analysis
 
 ## Microsoft Power BI
@@ -126,7 +123,7 @@ Power Query can be used for data transformation and preparation where applicable
 
 ## DAX
 
-DAX calculations can be used for calculated measures in Power BI where applicable.
+DAX can be used for calculated measures and Power BI calculations where applicable.
 
 ---
 
@@ -153,6 +150,8 @@ Data Modeling
      ↓
 Data Visualization
      ↓
-Interactive Dashboard
+Dashboard Development
+     ↓
+Interactive Features
      ↓
 Insights & Findings
